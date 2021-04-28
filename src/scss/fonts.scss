@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Helvetica Neue Regular';
+  src: local('Helvetica Neue Roman'), local('Helvetica-Neue-Roman'),
+      url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'),
+      url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
+      url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype'),
+      url('../fonts/HelveticaNeueCyr-Roman.eot?') format('eot');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Medium';
+  src: local('Helvetica Neue Medium'), local('Helvetica-Neue-Medium'),
+      url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+      url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff'),
+      url('../fonts/HelveticaNeueCyr-Medium.ttf') format('truetype'),
+      url('../fonts/HelveticaNeueCyr-Medium.eot?') format('eot');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Bold';
+  src: local('Helvetica Neue Bold'), local('Helvetica-Neue-Bold'),
+      url('../fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'),
+      url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff'),
+      url('../fonts/HelveticaNeueCyr-Bold.ttf') format('truetype'),
+      url('../fonts/HelveticaNeueCyr-Bold.eot?') format('eot');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pacifico Regular';
+  src: local('Pacifico'), local('Pacifico'),
+      url('../fonts/Pacifico.ttf') format('truetype'),
+      url('../fonts/Pacifico-Regular.eot?') format('eot');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

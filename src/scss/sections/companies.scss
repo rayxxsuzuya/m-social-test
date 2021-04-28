@@ -1,0 +1,14 @@
+.companies {
+  padding: 15px 0;
+  background: #ececec;
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__image {
+    display: block;
+  }
+}
