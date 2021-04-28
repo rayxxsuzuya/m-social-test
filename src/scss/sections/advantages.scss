@@ -1,5 +1,5 @@
 .advantages {
-  padding: 96px 0 98px;
+  padding: 96px 0 104px;
   background-color: rgba(76,91,102,0.0);
   background-image: linear-gradient(0.0deg, rgba(255,255,255,0.04) 0%, rgba(0,0,0,0.04) 100%);
 
@@ -11,6 +11,7 @@
   &__item {
     text-align: center;
     max-width: 308px;
+    margin: 0 10px;
   }
 
   &__wrapper {

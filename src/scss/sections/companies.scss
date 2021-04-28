@@ -6,6 +6,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    margin: 0 15px;
   }
 
   &__image {
