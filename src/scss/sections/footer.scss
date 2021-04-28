@@ -1,0 +1,154 @@
+.footer {
+
+  &__main {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 61px;
+  }
+
+  .blog {
+    max-width: 463px;
+
+    &__title {
+      font-size: 20px;
+      line-height: 180%;
+      color: #4c5b66;
+      position: relative;
+      padding-left: 31px;
+      margin-bottom: 9px;
+      font-weight: 400;
+      font-family: $helvetica-regular;
+
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: url(../img/footer_net_icon.png);
+        left: 1px;
+        top: 8px;
+      }
+    }
+    &__item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    &__image {
+      display: block;
+      margin-right: 31px;
+    }
+
+    &__subtitle {
+      font-family: $helvetica-regular;
+      font-size: 15px;
+      line-height: 153%;
+      font-weight: 400;
+      color: #5c5c5c;
+    }
+
+    &__text {
+      font-size: 13px;
+      line-height: 192%;
+      color: #888888;
+    }
+
+    &__more {
+      color: #3c92d0;
+    }
+
+    &__date {
+      font-size: 11px;
+      line-height: 153%;
+      color: #b0b0b0;
+    }
+
+    &__entries {
+      font-size: 13px;
+      line-height: 1;
+      color: #3e95d2;
+    }
+  }
+
+  .twitter {
+    max-width: 373px;
+
+    &__title {
+      font-size: 20px;
+      line-height: 180%;
+      color: #4c5b66;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 9px;
+      font-weight: 400;
+      font-family: $helvetica-regular;
+
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 26px;
+        height: 21px;
+        background: url(../img/footer_twitter_icon.png);
+        left: 1px;
+        top: 8px;
+      }
+    }
+
+    &__post {
+      margin-bottom: 21px;
+    }
+
+    &__wrapper {
+      font-size: 13px;
+      line-height: 175%;
+      color: #888888;
+      margin-bottom: 7px;
+    }
+
+    &__user {
+      color: #515151;
+    }
+
+    &__url {
+      color: #3d93d1;
+    }
+
+    &__hashtag {
+      color: #3c93d0
+    }
+
+    &__date {
+      font-size: 11px;
+      line-height: 1;
+      color: #a4a4a4;
+    }
+
+    &__follow {
+      font-size: 13px;
+      line-height: 181%;
+      color: #3e95d2;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0 34px;
+    border-top: 1px solid rgba(#e2e2e2, 0.8);
+  }
+
+  &__copyright {
+    font-size: 13px;
+    line-height: 153%;
+    font-weight: 400;
+    color: #8a8a8a;
+  }
+
+  &__link + &__link {
+    margin-left: 6px;
+  }
+}

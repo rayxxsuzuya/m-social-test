@@ -1,5 +1,6 @@
 @import 'vars';
 @import 'fonts';
+@import 'slick';
 
 *,
 *:before,
@@ -51,3 +52,6 @@ body {
 
 @import 'sections/header.scss';
 @import 'sections/companies.scss';
+@import 'sections/advantages.scss';
+@import 'sections/projects.scss';
+@import 'sections/footer.scss';
