@@ -1,3 +1,26 @@
+@media (max-width: 1150px) {
+  .slick-prev {
+    left: 0;
+  }
+
+  .projects {
+    &__item {
+      width: calc(25% - 30px);
+      margin: 0 15px;
+    }
+  }
+
+  .slick-next {
+    right: 0;
+  }
+}
+
+@media (max-width: 872px) {
+  .slick-next {
+    right: 2%;
+  }
+}
+
 @media (max-width: 850px) {
   .header {
     &__main {
@@ -38,6 +61,25 @@
 
     &__item {
       margin-bottom: 60px;  
+    }
+  }
+}
+
+@media (max-width: 828px) {
+  .slick-next {
+    right: 1%;
+  }
+}
+
+@media (max-width: 727px) {
+  .footer {
+    &__main {
+      flex-wrap: wrap;
+    }
+
+    .blog {
+      margin-right: 0;
+      margin-bottom: 45px;
     }
   }
 }
@@ -125,6 +167,115 @@
         justify-content: center;
         text-align: center;
       }
+    }
+  }
+
+  .projects {
+    &__title {
+      margin: 0 auto 30px;
+      max-width: 188px
+    }
+
+    &__item {
+      width: 100%;
+    }
+
+    &__image {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 478px) {
+  .footer {
+    .blog {
+      max-width: 292px;
+
+      &__item {
+        flex-wrap: wrap;
+      }
+
+      &__image {
+        margin-right: 0;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .slick-next {
+    display: none;
+  }
+
+  .slick-prev {
+    display: none;
+  }
+
+  .slick-dots {
+    position: absolute;
+    top: 110%;
+    display: flex;
+  }
+
+  .slick-dots li button {
+    font-size: 0;
+    border-radius: 100%;
+    background-color: #ccc;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    transition: .3s;
+  }
+
+  .slick-dots li {
+    margin-right: 5px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .slick-dots li.slick-active button {
+    background-color: #a1c93f;
+  }
+
+  .advantages {
+    &__item {
+      max-width: 255px;
+    }
+  }
+
+  .projects {
+    padding-bottom: 93px;
+  }
+
+  .footer {
+    &__main {
+      padding-bottom: 40px;
+    }
+
+    .blog {
+      &__title {
+        margin-bottom: 16px;
+      }
+    }
+
+    &__bottom {
+      padding: 24px 0 29px;
+
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__copyright {
+      width: 100%;
+      text-align: center;
+      order: 2;
+    }
+
+    &__social {
+      margin-bottom: 15px;
     }
   }
 }
